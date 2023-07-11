@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <link rel="stylesheet" href="style.css" />
+          <title>Projet Etudiant</title>
+     </head>
+     <body>
+          <h1>Mes cartes</h1>
+          <div id="parent-form">
+               <form>
+                    <div class="space">
+                         <label for="userName">userName</label>
+                         <input type="text" id="userName" />
+                    </div>
+                    <div class="space">
+                         <label for="tagline">tagLine</label>
+                         <input type="text" id="tagline" />
+                    </div>
+                    <div class="space">
+                         <label for="likes">likes</label>
+                         <input type="number" min="1" id="likes" />
+                    </div>
+                    <div id="button">
+                         <button>Ajouter</button>
+                    </div>
+               </form>
+          </div>
+          <div id="contenair"></div>
+     </body>
+     <script type="module" src="./pages/index.js"></script>
+</html>
